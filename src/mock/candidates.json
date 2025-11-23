@@ -1,0 +1,137 @@
+[
+  {
+    "id": "c001",
+    "name": "João da Silva Santos",
+    "email": "joao.santos@email.com",
+    "cpf": "123.456.789-00",
+    "phone": "(85) 98765-4321",
+    "location": {
+      "city": "São Gonçalo do Amarante",
+      "state": "CE",
+      "coordinates": { "lat": -3.6, "lng": -38.97 }
+    },
+    "isPCD": false,
+    "avatar": null,
+    "mainArea": "Operação de Equipamentos",
+    "profileCompleteness": 85,
+    "certifications": [
+      {
+        "certificationId": "nr-35",
+        "issueDate": "2023-01-15",
+        "expiryDate": "2025-01-15",
+        "documentUrl": null,
+        "verified": true
+      },
+      {
+        "certificationId": "nr-11",
+        "issueDate": "2023-06-10",
+        "expiryDate": "2025-06-10",
+        "documentUrl": null,
+        "verified": true
+      },
+      {
+        "certificationId": "nr-33",
+        "issueDate": "2024-03-20",
+        "expiryDate": "2025-03-20",
+        "documentUrl": null,
+        "verified": true
+      }
+    ],
+    "experience": [
+      {
+        "position": "Operador de Empilhadeira",
+        "company": "Logística Porto S.A.",
+        "period": "Jan 2020 - Atual"
+      },
+      {
+        "position": "Auxiliar de Armazenagem",
+        "company": "Terminal Portuário",
+        "period": "Mar 2018 - Dez 2019"
+      }
+    ],
+    "skills": ["Empilhadeira", "Reach Stacker", "Trabalho em equipe", "Atenção a detalhes"],
+    "createdAt": "2024-01-10T10:00:00Z"
+  },
+  {
+    "id": "c002",
+    "name": "Maria Oliveira Costa",
+    "email": "maria.costa@email.com",
+    "cpf": "987.654.321-00",
+    "phone": "(85) 99876-5432",
+    "location": {
+      "city": "Caucaia",
+      "state": "CE",
+      "coordinates": { "lat": -3.73, "lng": -38.66 }
+    },
+    "isPCD": true,
+    "avatar": null,
+    "mainArea": "Administrativa",
+    "profileCompleteness": 95,
+    "certifications": [
+      {
+        "certificationId": "iso-9001",
+        "issueDate": "2022-08-15",
+        "expiryDate": "2025-08-15",
+        "documentUrl": null,
+        "verified": true
+      },
+      {
+        "certificationId": "primeiros-socorros",
+        "issueDate": "2023-11-05",
+        "expiryDate": "2025-11-05",
+        "documentUrl": null,
+        "verified": true
+      }
+    ],
+    "experience": [
+      {
+        "position": "Assistente Administrativa",
+        "company": "Porto do Pecém",
+        "period": "Fev 2021 - Atual"
+      }
+    ],
+    "skills": ["Excel Avançado", "SAP", "Comunicação", "Organização"],
+    "createdAt": "2024-02-15T14:30:00Z"
+  },
+  {
+    "id": "c003",
+    "name": "Carlos Eduardo Ferreira",
+    "email": "carlos.ferreira@email.com",
+    "cpf": "456.789.123-00",
+    "phone": "(85) 91234-5678",
+    "location": {
+      "city": "Fortaleza",
+      "state": "CE",
+      "coordinates": { "lat": -3.71, "lng": -38.54 }
+    },
+    "isPCD": false,
+    "avatar": null,
+    "mainArea": "Manutenção Industrial",
+    "profileCompleteness": 75,
+    "certifications": [
+      {
+        "certificationId": "nr-10",
+        "issueDate": "2023-05-10",
+        "expiryDate": "2025-05-10",
+        "documentUrl": null,
+        "verified": true
+      },
+      {
+        "certificationId": "nr-12",
+        "issueDate": "2022-12-01",
+        "expiryDate": "2024-12-01",
+        "documentUrl": null,
+        "verified": false
+      }
+    ],
+    "experience": [
+      {
+        "position": "Eletricista Industrial",
+        "company": "Manutenção Porto S.A.",
+        "period": "Mai 2019 - Atual"
+      }
+    ],
+    "skills": ["Elétrica Industrial", "Manutenção Preventiva", "Leitura de Projetos"],
+    "createdAt": "2024-03-20T09:15:00Z"
+  }
+]

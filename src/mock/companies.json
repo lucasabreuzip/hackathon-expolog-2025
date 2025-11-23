@@ -1,0 +1,30 @@
+[
+  {
+    "id": "comp001",
+    "name": "Logística Porto S.A.",
+    "logo": null,
+    "segment": "Logística e Armazenagem",
+    "location": "São Gonçalo do Amarante - CE"
+  },
+  {
+    "id": "comp002",
+    "name": "Terminal Pecém Container",
+    "logo": null,
+    "segment": "Operação Portuária",
+    "location": "Porto do Pecém - CE"
+  },
+  {
+    "id": "comp003",
+    "name": "Manutenção Industrial Nordeste",
+    "logo": null,
+    "segment": "Manutenção e Serviços",
+    "location": "São Gonçalo do Amarante - CE"
+  },
+  {
+    "id": "comp004",
+    "name": "Porto do Pecém S.A.",
+    "logo": null,
+    "segment": "Administração Portuária",
+    "location": "Porto do Pecém - CE"
+  }
+]

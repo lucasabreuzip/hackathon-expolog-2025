@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 17% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 17% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 17% 20%;
+
+    /* Pecém Primary - Teal */
+    --primary: 182 69% 36%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 182 69% 48%;
+    
+    /* Pecém Secondary - Golden Yellow */
+    --secondary: 43 90% 59%;
+    --secondary-foreground: 210 17% 20%;
+    
+    /* Pecém Accent - Blue */
+    --accent: 214 65% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 210 12% 45%;
+
+    /* Status colors for certifications */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    
+    --danger: 0 72% 51%;
+    --danger-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 182 69% 36%;
+
+    --radius: 0.75rem;
+
+    /* Clean gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(182 69% 36%), hsl(182 69% 48%));
+    --gradient-secondary: linear-gradient(135deg, hsl(43 90% 59%), hsl(43 90% 70%));
+    --gradient-hero: linear-gradient(180deg, hsl(182 65% 92%) 0%, hsl(0 0% 100%) 100%);
+    --gradient-hero-accent: linear-gradient(135deg, hsl(182 69% 36%), hsl(182 60% 45%));
+    
+    /* Shadows */
+    --shadow-card: 0 2px 8px hsla(210, 17%, 20%, 0.08);
+    --shadow-elevated: 0 4px 16px hsla(210, 17%, 20%, 0.12);
+    
+    /* Transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 215 15% 18%;
+    --foreground: 210 15% 92%;
+
+    --card: 215 12% 22%;
+    --card-foreground: 210 15% 92%;
+
+    --popover: 215 12% 22%;
+    --popover-foreground: 210 15% 92%;
+
+    --primary: 182 65% 52%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 182 65% 60%;
+
+    --secondary: 43 85% 68%;
+    --secondary-foreground: 215 15% 18%;
+
+    --accent: 214 60% 62%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 215 12% 28%;
+    --muted-foreground: 210 10% 65%;
+
+    --success: 142 68% 52%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 88% 58%;
+    --warning-foreground: 0 0% 100%;
+    
+    --danger: 0 68% 58%;
+    --danger-foreground: 0 0% 100%;
+
+    --destructive: 0 68% 58%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 12% 32%;
+    --input: 215 12% 32%;
+    --ring: 182 65% 52%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(182 65% 52%), hsl(182 65% 60%));
+    --gradient-secondary: linear-gradient(135deg, hsl(43 85% 68%), hsl(43 85% 76%));
+    --gradient-hero: linear-gradient(180deg, hsl(182 55% 25%) 0%, hsl(215 12% 22%) 100%);
+    --gradient-hero-accent: linear-gradient(135deg, hsl(182 65% 52%), hsl(182 55% 60%));
+    
+    --shadow-card: 0 2px 8px hsla(0, 0%, 0%, 0.2);
+    --shadow-elevated: 0 4px 16px hsla(0, 0%, 0%, 0.35);
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Improve touch targets for mobile */
+  button, a, input, select, textarea {
+    @apply min-h-[44px];
+  }
+}
+
+@layer components {
+  /* Hero section styles */
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+  
+  /* Card with shadow */
+  .card-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+  
+  /* Smooth transitions */
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  /* Badge variants */
+  .badge-success {
+    @apply bg-success text-success-foreground;
+  }
+  
+  .badge-warning {
+    @apply bg-warning text-warning-foreground;
+  }
+  
+  .badge-danger {
+    @apply bg-danger text-danger-foreground;
+  }
+  
+  /* Bottom nav for mobile */
+  .bottom-nav {
+    @apply fixed bottom-0 left-0 right-0 z-50 border-t bg-card;
+  }
+  
+  /* Focus visible styles for accessibility */
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+  }
+}
+
+/* High Contrast Mode - Accessibility */
+.high-contrast {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+
+  --card: 0 0% 10%;
+  --card-foreground: 0 0% 100%;
+
+  --popover: 0 0% 10%;
+  --popover-foreground: 0 0% 100%;
+
+  --primary: 48 100% 50%;
+  --primary-foreground: 0 0% 0%;
+
+  --secondary: 0 0% 100%;
+  --secondary-foreground: 0 0% 0%;
+
+  --muted: 0 0% 20%;
+  --muted-foreground: 0 0% 85%;
+
+  --accent: 48 100% 50%;
+  --accent-foreground: 0 0% 0%;
+
+  --border: 0 0% 100%;
+  --input: 0 0% 100%;
+  --ring: 48 100% 50%;
+
+  --success: 120 100% 50%;
+  --success-foreground: 0 0% 0%;
+
+  --warning: 48 100% 50%;
+  --warning-foreground: 0 0% 0%;
+
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 0 0% 100%;
+}
+
+.high-contrast * {
+  border-width: 2px !important;
+  font-weight: 600 !important;
+}
+
+.high-contrast img {
+  filter: contrast(1.2) brightness(1.1);
+}
+
+.high-contrast a:focus,
+.high-contrast button:focus,
+.high-contrast input:focus,
+.high-contrast select:focus,
+.high-contrast textarea:focus {
+  outline: 3px solid hsl(48 100% 50%) !important;
+  outline-offset: 2px !important;
+}
+
+/* Hide VLibras default floating button - only accessible via accessibility panel */
+[vw-access-button] {
+  display: none !important;
+}

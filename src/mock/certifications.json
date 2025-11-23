@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nr-10",
+    "name": "NR-10 - Segurança em Instalações Elétricas",
+    "category": "safety",
+    "validityPeriod": 24,
+    "issuingBody": "SESI"
+  },
+  {
+    "id": "nr-11",
+    "name": "NR-11 - Operação de Empilhadeira",
+    "category": "operational",
+    "validityPeriod": 24,
+    "issuingBody": "SENAI"
+  },
+  {
+    "id": "nr-33",
+    "name": "NR-33 - Trabalho em Espaços Confinados",
+    "category": "safety",
+    "validityPeriod": 12,
+    "issuingBody": "SESI"
+  },
+  {
+    "id": "nr-35",
+    "name": "NR-35 - Trabalho em Altura",
+    "category": "safety",
+    "validityPeriod": 24,
+    "issuingBody": "SESI"
+  },
+  {
+    "id": "mopp",
+    "name": "MOPP - Movimentação de Produtos Perigosos",
+    "category": "operational",
+    "validityPeriod": 60,
+    "issuingBody": "DETRAN-CE"
+  },
+  {
+    "id": "nr-12",
+    "name": "NR-12 - Segurança em Máquinas e Equipamentos",
+    "category": "safety",
+    "validityPeriod": 24,
+    "issuingBody": "SENAI"
+  },
+  {
+    "id": "nr-18",
+    "name": "NR-18 - Condições e Meio Ambiente na Indústria da Construção",
+    "category": "safety",
+    "validityPeriod": 24,
+    "issuingBody": "SESI"
+  },
+  {
+    "id": "cnh-d",
+    "name": "CNH Categoria D",
+    "category": "operational",
+    "validityPeriod": 60,
+    "issuingBody": "DETRAN-CE"
+  },
+  {
+    "id": "iso-9001",
+    "name": "ISO 9001 - Gestão da Qualidade",
+    "category": "technical",
+    "validityPeriod": 36,
+    "issuingBody": "Bureau Veritas"
+  },
+  {
+    "id": "primeiros-socorros",
+    "name": "Primeiros Socorros",
+    "category": "safety",
+    "validityPeriod": 24,
+    "issuingBody": "Cruz Vermelha"
+  }
+]

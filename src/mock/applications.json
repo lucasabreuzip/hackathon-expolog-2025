@@ -1,0 +1,26 @@
+[
+  {
+    "id": "app001",
+    "jobId": "job001",
+    "candidateId": "c001",
+    "matchScore": 90,
+    "status": "pending",
+    "appliedAt": "2024-11-15T10:30:00Z"
+  },
+  {
+    "id": "app002",
+    "jobId": "job002",
+    "candidateId": "c002",
+    "matchScore": 95,
+    "status": "viewed",
+    "appliedAt": "2024-11-16T14:20:00Z"
+  },
+  {
+    "id": "app003",
+    "jobId": "job003",
+    "candidateId": "c003",
+    "matchScore": 70,
+    "status": "pending",
+    "appliedAt": "2024-11-17T09:15:00Z"
+  }
+]

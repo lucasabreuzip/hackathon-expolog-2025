@@ -1,0 +1,427 @@
+[
+  {
+    "id": "job001",
+    "companyId": "comp001",
+    "title": "Operador de Empilhadeira",
+    "description": "Responsável pela movimentação de cargas no terminal portuário, operando empilhadeira e reach stacker. Deve seguir rigorosamente os procedimentos de segurança e manter o equipamento em boas condições.",
+    "category": "Operação de Equipamentos",
+    "location": "São Gonçalo do Amarante - CE",
+    "requiredCertifications": ["nr-11", "nr-35"],
+    "requiredSkills": ["Empilhadeira", "Trabalho em equipe"],
+    "desiredSkills": ["Reach Stacker", "Experiência em terminal portuário"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": true,
+      "minExperience": 2
+    },
+    "salary": {
+      "min": 3500,
+      "max": 4500
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "Seguro de Vida"],
+    "active": true,
+    "publishedAt": "2024-11-01T08:00:00Z"
+  },
+  {
+    "id": "job002",
+    "companyId": "comp002",
+    "title": "Assistente Administrativa - PCD",
+    "description": "Atuar no suporte administrativo ao departamento operacional, incluindo controle de documentação, lançamentos em sistema e atendimento interno. Vaga exclusiva para pessoas com deficiência.",
+    "category": "Administrativa",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": [],
+    "requiredSkills": ["Excel Básico", "Comunicação"],
+    "desiredSkills": ["SAP", "Excel Avançado", "Inglês"],
+    "restrictions": {
+      "pcdExclusive": true,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 0
+    },
+    "salary": {
+      "min": 2200,
+      "max": 2800
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Vale Alimentação"],
+    "active": true,
+    "publishedAt": "2024-11-05T10:00:00Z"
+  },
+  {
+    "id": "job003",
+    "companyId": "comp003",
+    "title": "Eletricista Industrial",
+    "description": "Executar manutenções preventivas e corretivas em sistemas elétricos industriais, painéis de comando, motores e equipamentos. Deve possuir experiência comprovada em ambiente industrial.",
+    "category": "Manutenção Industrial",
+    "location": "São Gonçalo do Amarante - CE",
+    "requiredCertifications": ["nr-10", "nr-12"],
+    "requiredSkills": ["Elétrica Industrial", "Leitura de Projetos"],
+    "desiredSkills": ["Manutenção Preventiva", "CLP"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": true,
+      "minExperience": 3
+    },
+    "salary": {
+      "min": 4000,
+      "max": 5500
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "PLR"],
+    "active": true,
+    "publishedAt": "2024-11-10T09:00:00Z"
+  },
+  {
+    "id": "job004",
+    "companyId": "comp002",
+    "title": "Supervisor de Operações Portuárias",
+    "description": "Coordenar equipes de operação portuária, garantindo o cumprimento de metas de produtividade e segurança. Controlar a movimentação de cargas e equipamentos.",
+    "category": "Operação de Equipamentos",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": ["nr-35", "nr-33"],
+    "requiredSkills": ["Liderança", "Gestão de equipes", "Conhecimento em operação portuária"],
+    "desiredSkills": ["Inglês", "Excel Avançado"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 5
+    },
+    "salary": {
+      "min": 6000,
+      "max": 8000
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "Plano Odontológico", "PLR"],
+    "active": true,
+    "publishedAt": "2024-11-12T14:00:00Z"
+  },
+  {
+    "id": "job005",
+    "companyId": "comp004",
+    "title": "Analista de Segurança do Trabalho",
+    "description": "Planejar e executar programas de prevenção de acidentes, realizar inspeções de segurança, ministrar treinamentos e garantir conformidade com as normas regulamentadoras.",
+    "category": "Segurança do Trabalho",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": ["primeiros-socorros"],
+    "requiredSkills": ["Conhecimento em NRs", "Elaboração de relatórios", "Comunicação"],
+    "desiredSkills": ["CIPA", "Excel Avançado", "Power BI"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 2
+    },
+    "salary": {
+      "min": 4500,
+      "max": 6000
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "Vale Alimentação"],
+    "active": true,
+    "publishedAt": "2024-11-08T11:00:00Z"
+  },
+  {
+    "id": "job006",
+    "companyId": "comp001",
+    "title": "Analista de Recursos Humanos - Exclusiva Mulheres",
+    "description": "Responsável por processos de recrutamento e seleção, treinamento e desenvolvimento, clima organizacional e gestão de pessoas. Vaga exclusiva para mulheres em programa de diversidade e inclusão.",
+    "category": "Administrativa",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": [],
+    "requiredSkills": ["Recrutamento e Seleção", "Excel", "Comunicação"],
+    "desiredSkills": ["Inglês", "Power BI", "Gestão de pessoas"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": true,
+      "noColorBlindness": false,
+      "minExperience": 1
+    },
+    "salary": {
+      "min": 3500,
+      "max": 5000
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "Auxílio Creche"],
+    "active": true,
+    "publishedAt": "2024-11-15T10:00:00Z"
+  },
+  {
+    "id": "job007",
+    "companyId": "comp003",
+    "title": "Coordenadora de Logística - Exclusiva Mulheres",
+    "description": "Coordenar operações logísticas portuárias, gestão de estoques, planejamento de rotas e controle de cargas. Programa de incentivo à liderança feminina no setor portuário.",
+    "category": "Logística e Armazenagem",
+    "location": "São Gonçalo do Amarante - CE",
+    "requiredCertifications": [],
+    "requiredSkills": ["Gestão de equipes", "Logística", "Excel Avançado"],
+    "desiredSkills": ["WMS", "Power BI", "Inglês"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": true,
+      "noColorBlindness": false,
+      "minExperience": 3
+    },
+    "salary": {
+      "min": 5500,
+      "max": 7500
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "PLR", "Auxílio Creche"],
+    "active": true,
+    "publishedAt": "2024-11-16T09:00:00Z"
+  },
+  {
+    "id": "job008",
+    "companyId": "comp002",
+    "title": "Mecânico de Manutenção",
+    "description": "Realizar manutenção preventiva e corretiva em equipamentos portuários, incluindo guindastes, empilhadeiras e sistemas hidráulicos. Garantir o funcionamento adequado dos equipamentos.",
+    "category": "Manutenção Industrial",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": ["nr-12"],
+    "requiredSkills": ["Mecânica Industrial", "Leitura de manuais técnicos"],
+    "desiredSkills": ["Solda", "Hidráulica", "Pneumática"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 2
+    },
+    "salary": {
+      "min": 3200,
+      "max": 4800
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde"],
+    "active": true,
+    "publishedAt": "2024-11-18T08:30:00Z"
+  },
+  {
+    "id": "job009",
+    "companyId": "comp004",
+    "title": "Auxiliar de Armazém - PCD",
+    "description": "Auxiliar nas atividades de recebimento, conferência, armazenagem e expedição de materiais. Organizar produtos no estoque e manter o ambiente de trabalho limpo. Vaga exclusiva PCD.",
+    "category": "Logística e Armazenagem",
+    "location": "São Gonçalo do Amarante - CE",
+    "requiredCertifications": [],
+    "requiredSkills": ["Organização", "Trabalho em equipe"],
+    "desiredSkills": ["Excel Básico", "Experiência em estoque"],
+    "restrictions": {
+      "pcdExclusive": true,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 0
+    },
+    "salary": {
+      "min": 1800,
+      "max": 2400
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição"],
+    "active": true,
+    "publishedAt": "2024-11-19T10:00:00Z"
+  },
+  {
+    "id": "job010",
+    "companyId": "comp001",
+    "title": "Analista de TI - Infraestrutura",
+    "description": "Responsável pela administração e manutenção da infraestrutura de TI, servidores, redes e sistemas. Implementar soluções de segurança da informação e backup.",
+    "category": "Tecnologia da Informação",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": [],
+    "requiredSkills": ["Redes", "Windows Server", "Linux"],
+    "desiredSkills": ["VMware", "AWS", "Segurança da Informação", "Inglês"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 2
+    },
+    "salary": {
+      "min": 4500,
+      "max": 6500
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "Home Office parcial"],
+    "active": true,
+    "publishedAt": "2024-11-20T09:15:00Z"
+  },
+  {
+    "id": "job011",
+    "companyId": "comp003",
+    "title": "Operador de Guindaste",
+    "description": "Operar guindastes móveis e fixos para movimentação de cargas pesadas no terminal portuário. Realizar inspeções diárias e manter a segurança operacional.",
+    "category": "Operação de Equipamentos",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": ["nr-11", "nr-35"],
+    "requiredSkills": ["Operação de Guindaste", "Atenção aos detalhes"],
+    "desiredSkills": ["Experiência em terminal portuário", "Inglês técnico"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": true,
+      "minExperience": 3
+    },
+    "salary": {
+      "min": 4200,
+      "max": 6000
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "PLR", "Seguro de Vida"],
+    "active": true,
+    "publishedAt": "2024-11-21T07:00:00Z"
+  },
+  {
+    "id": "job012",
+    "companyId": "comp002",
+    "title": "Assistente Financeiro",
+    "description": "Auxiliar nas rotinas do departamento financeiro, incluindo contas a pagar e receber, conciliação bancária, emissão de notas fiscais e relatórios financeiros.",
+    "category": "Administrativa",
+    "location": "São Gonçalo do Amarante - CE",
+    "requiredCertifications": [],
+    "requiredSkills": ["Excel Intermediário", "Organização", "Atenção aos detalhes"],
+    "desiredSkills": ["SAP", "Conhecimento contábil", "Power BI"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 1
+    },
+    "salary": {
+      "min": 2500,
+      "max": 3500
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Vale Alimentação"],
+    "active": true,
+    "publishedAt": "2024-11-22T11:00:00Z"
+  },
+  {
+    "id": "job013",
+    "companyId": "comp004",
+    "title": "Técnico de Segurança do Trabalho",
+    "description": "Acompanhar atividades operacionais, realizar DDS (Diálogo Diário de Segurança), investigar acidentes e incidentes, elaborar relatórios e garantir uso de EPIs.",
+    "category": "Segurança do Trabalho",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": ["nr-35"],
+    "requiredSkills": ["Conhecimento em NRs", "Comunicação", "Trabalho em equipe"],
+    "desiredSkills": ["CIPA", "Primeiros Socorros", "Excel"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 1
+    },
+    "salary": {
+      "min": 3000,
+      "max": 4200
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde"],
+    "active": true,
+    "publishedAt": "2024-11-23T08:00:00Z"
+  },
+  {
+    "id": "job014",
+    "companyId": "comp001",
+    "title": "Encarregado de Produção",
+    "description": "Supervisionar equipes de produção, controlar indicadores de desempenho, garantir cumprimento de metas e padrões de qualidade. Resolver problemas operacionais do dia a dia.",
+    "category": "Operação de Equipamentos",
+    "location": "São Gonçalo do Amarante - CE",
+    "requiredCertifications": [],
+    "requiredSkills": ["Liderança", "Gestão de equipes", "Conhecimento em processos produtivos"],
+    "desiredSkills": ["Excel Avançado", "Lean Manufacturing", "5S"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 4
+    },
+    "salary": {
+      "min": 5000,
+      "max": 7000
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "PLR"],
+    "active": true,
+    "publishedAt": "2024-11-17T13:00:00Z"
+  },
+  {
+    "id": "job015",
+    "companyId": "comp003",
+    "title": "Auxiliar Administrativo - Exclusiva Mulheres",
+    "description": "Realizar atividades administrativas diversas como atendimento telefônico, arquivo de documentos, elaboração de planilhas e suporte às demais áreas. Vaga para promover diversidade de gênero.",
+    "category": "Administrativa",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": [],
+    "requiredSkills": ["Excel Básico", "Comunicação", "Organização"],
+    "desiredSkills": ["Atendimento ao cliente", "Pacote Office"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": true,
+      "noColorBlindness": false,
+      "minExperience": 0
+    },
+    "salary": {
+      "min": 1900,
+      "max": 2600
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição"],
+    "active": true,
+    "publishedAt": "2024-11-14T09:30:00Z"
+  },
+  {
+    "id": "job016",
+    "companyId": "comp002",
+    "title": "Conferente de Carga",
+    "description": "Conferir cargas de entrada e saída, verificar documentação fiscal, identificar avarias e registrar informações no sistema. Garantir a precisão das operações logísticas.",
+    "category": "Logística e Armazenagem",
+    "location": "São Gonçalo do Amarante - CE",
+    "requiredCertifications": [],
+    "requiredSkills": ["Atenção aos detalhes", "Excel Básico", "Organização"],
+    "desiredSkills": ["WMS", "SAP", "Experiência em terminal"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": false,
+      "minExperience": 1
+    },
+    "salary": {
+      "min": 2200,
+      "max": 3000
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição"],
+    "active": true,
+    "publishedAt": "2024-11-13T10:45:00Z"
+  },
+  {
+    "id": "job017",
+    "companyId": "comp004",
+    "title": "Soldador",
+    "description": "Executar serviços de solda em estruturas metálicas, equipamentos e tubulações. Realizar manutenção e reparos em peças metálicas seguindo normas técnicas e de segurança.",
+    "category": "Manutenção Industrial",
+    "location": "Porto do Pecém - CE",
+    "requiredCertifications": ["nr-35"],
+    "requiredSkills": ["Solda MIG", "Solda TIG", "Leitura de desenhos técnicos"],
+    "desiredSkills": ["Solda Elétrica", "Caldeiraria", "NR-34"],
+    "restrictions": {
+      "pcdExclusive": false,
+      "womenExclusive": false,
+      "noColorBlindness": true,
+      "minExperience": 2
+    },
+    "salary": {
+      "min": 3500,
+      "max": 5000
+    },
+    "regime": "CLT",
+    "benefits": ["Vale Transporte", "Vale Refeição", "Plano de Saúde", "Insalubridade"],
+    "active": true,
+    "publishedAt": "2024-11-11T08:15:00Z"
+  }
+]

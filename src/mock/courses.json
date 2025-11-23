@@ -1,0 +1,443 @@
+[
+  {
+    "id": "course-1",
+    "title": "NR-35: Trabalho em Altura - Básico",
+    "description": "Curso completo sobre segurança em trabalhos em altura conforme NR-35. Inclui teoria, práticas e certificação oficial válida por 2 anos.",
+    "category": "Segurança do Trabalho",
+    "thumbnail": "/courses/nr35.jpg",
+    "duration": 8,
+    "mode": "hibrido",
+    "level": "basico",
+    "instructor": "Eng. Carlos Mendes",
+    "location": "Centro de Treinamento - Porto do Pecém",
+    "schedule": "Sábados, 8h às 17h",
+    "maxStudents": 20,
+    "tags": ["NR-35", "Altura", "Segurança", "Certificação"],
+    "lessons": [
+      {
+        "id": "lesson-1-1",
+        "courseId": "course-1",
+        "title": "Introdução à NR-35",
+        "description": "Conceitos básicos e legislação",
+        "type": "video",
+        "content": "https://exemplo.com/video1",
+        "duration": 45,
+        "order": 1,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-1-2",
+        "courseId": "course-1",
+        "title": "Equipamentos de Proteção Individual",
+        "description": "EPIs obrigatórios para trabalho em altura",
+        "type": "video",
+        "content": "https://exemplo.com/video2",
+        "duration": 60,
+        "order": 2,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-1-3",
+        "courseId": "course-1",
+        "title": "Quiz de Avaliação Teórica",
+        "description": "Teste seus conhecimentos",
+        "type": "quiz",
+        "content": "{\"questions\": []}",
+        "duration": 30,
+        "order": 3,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-1-4",
+        "courseId": "course-1",
+        "title": "Prática em Campo",
+        "description": "Atividade presencial no centro de treinamento",
+        "type": "document",
+        "content": "/documents/pratica-nr35.pdf",
+        "duration": 240,
+        "order": 4,
+        "isRequired": true
+      }
+    ],
+    "certificateTemplate": "nr35-certificate",
+    "active": true,
+    "publishedAt": "2025-01-15T10:00:00Z"
+  },
+  {
+    "id": "course-2",
+    "title": "Operação de Empilhadeira",
+    "description": "Capacitação completa para operadores de empilhadeira com certificação reconhecida pelo CIPP. Curso 100% EAD com simuladores virtuais.",
+    "category": "Operação de Equipamentos",
+    "thumbnail": "/courses/empilhadeira.jpg",
+    "duration": 16,
+    "mode": "ead",
+    "level": "intermediario",
+    "instructor": "Técnico Roberto Silva",
+    "tags": ["Empilhadeira", "Logística", "Operação", "EAD"],
+    "lessons": [
+      {
+        "id": "lesson-2-1",
+        "courseId": "course-2",
+        "title": "Fundamentos da Empilhadeira",
+        "description": "Tipos, componentes e funcionamento",
+        "type": "video",
+        "content": "https://exemplo.com/empilhadeira1",
+        "duration": 90,
+        "order": 1,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-2-2",
+        "courseId": "course-2",
+        "title": "Normas de Segurança",
+        "description": "Procedimentos seguros de operação",
+        "type": "text",
+        "content": "<h1>Normas de Segurança</h1><p>...</p>",
+        "duration": 60,
+        "order": 2,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-2-3",
+        "courseId": "course-2",
+        "title": "Simulador Virtual - Nível 1",
+        "description": "Práticas básicas no simulador",
+        "type": "video",
+        "content": "https://exemplo.com/simulador1",
+        "duration": 120,
+        "order": 3,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-2-4",
+        "courseId": "course-2",
+        "title": "Simulador Virtual - Nível 2",
+        "description": "Operações avançadas",
+        "type": "video",
+        "content": "https://exemplo.com/simulador2",
+        "duration": 120,
+        "order": 4,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-2-5",
+        "courseId": "course-2",
+        "title": "Avaliação Final",
+        "description": "Prova teórica e prática virtual",
+        "type": "quiz",
+        "content": "{\"questions\": []}",
+        "duration": 90,
+        "order": 5,
+        "isRequired": true
+      }
+    ],
+    "certificateTemplate": "empilhadeira-certificate",
+    "active": true,
+    "publishedAt": "2025-01-10T08:00:00Z"
+  },
+  {
+    "id": "course-3",
+    "title": "Acessibilidade e Inclusão no Ambiente Portuário",
+    "description": "Curso sobre boas práticas de inclusão de pessoas com deficiência no ambiente de trabalho portuário. Conteúdo com audiodescrição e LIBRAS.",
+    "category": "Desenvolvimento Pessoal",
+    "thumbnail": "/courses/inclusao.jpg",
+    "duration": 4,
+    "mode": "ead",
+    "level": "basico",
+    "instructor": "Dra. Ana Paula Costa",
+    "tags": ["PCD", "Inclusão", "Acessibilidade", "Diversidade"],
+    "lessons": [
+      {
+        "id": "lesson-3-1",
+        "courseId": "course-3",
+        "title": "Fundamentos da Inclusão",
+        "description": "História e legislação sobre PCD",
+        "type": "video",
+        "content": "https://exemplo.com/inclusao1",
+        "duration": 60,
+        "order": 1,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-3-2",
+        "courseId": "course-3",
+        "title": "Adaptações no Ambiente Portuário",
+        "description": "Tecnologias assistivas e adaptações",
+        "type": "video",
+        "content": "https://exemplo.com/inclusao2",
+        "duration": 45,
+        "order": 2,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-3-3",
+        "courseId": "course-3",
+        "title": "Comunicação Inclusiva",
+        "description": "Dicas para melhor comunicação",
+        "type": "text",
+        "content": "<h1>Comunicação Inclusiva</h1><p>...</p>",
+        "duration": 30,
+        "order": 3,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-3-4",
+        "courseId": "course-3",
+        "title": "Quiz de Conhecimentos",
+        "description": "Avaliação final",
+        "type": "quiz",
+        "content": "{\"questions\": []}",
+        "duration": 25,
+        "order": 4,
+        "isRequired": true
+      }
+    ],
+    "certificateTemplate": "inclusao-certificate",
+    "active": true,
+    "publishedAt": "2025-01-20T09:00:00Z"
+  },
+  {
+    "id": "course-4",
+    "title": "NR-10: Segurança em Instalações Elétricas",
+    "description": "Treinamento presencial completo sobre segurança em instalações e serviços com eletricidade conforme NR-10.",
+    "category": "Segurança do Trabalho",
+    "thumbnail": "/courses/nr10.jpg",
+    "duration": 40,
+    "mode": "presencial",
+    "level": "intermediario",
+    "instructor": "Eng. Elétrico Fernando Alves",
+    "location": "Auditório CIPP - Porto do Pecém",
+    "schedule": "Segunda a Sexta, 18h às 22h (2 semanas)",
+    "maxStudents": 15,
+    "tags": ["NR-10", "Elétrica", "Segurança", "Certificação"],
+    "lessons": [
+      {
+        "id": "lesson-4-1",
+        "courseId": "course-4",
+        "title": "Módulo 1 - Introdução",
+        "description": "Riscos elétricos e medidas de controle",
+        "type": "document",
+        "content": "/documents/nr10-modulo1.pdf",
+        "duration": 240,
+        "order": 1,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-4-2",
+        "courseId": "course-4",
+        "title": "Módulo 2 - EPIs e EPCs",
+        "description": "Equipamentos de proteção",
+        "type": "document",
+        "content": "/documents/nr10-modulo2.pdf",
+        "duration": 240,
+        "order": 2,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-4-3",
+        "courseId": "course-4",
+        "title": "Módulo 3 - Primeiros Socorros",
+        "description": "Atendimento a vítimas de choque elétrico",
+        "type": "document",
+        "content": "/documents/nr10-modulo3.pdf",
+        "duration": 240,
+        "order": 3,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-4-4",
+        "courseId": "course-4",
+        "title": "Módulo 4 - Práticas",
+        "description": "Atividades práticas supervisionadas",
+        "type": "document",
+        "content": "/documents/nr10-modulo4.pdf",
+        "duration": 480,
+        "order": 4,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-4-5",
+        "courseId": "course-4",
+        "title": "Avaliação Final",
+        "description": "Prova teórica e prática",
+        "type": "quiz",
+        "content": "{\"questions\": []}",
+        "duration": 120,
+        "order": 5,
+        "isRequired": true
+      }
+    ],
+    "certificateTemplate": "nr10-certificate",
+    "active": true,
+    "publishedAt": "2025-01-05T10:00:00Z"
+  },
+  {
+    "id": "course-5",
+    "title": "Logística Portuária e Supply Chain",
+    "description": "Fundamentos da logística portuária, processos de importação/exportação e gestão da cadeia de suprimentos.",
+    "category": "Gestão e Logística",
+    "thumbnail": "/courses/logistica.jpg",
+    "duration": 12,
+    "mode": "ead",
+    "level": "avancado",
+    "instructor": "MBA Juliana Rodrigues",
+    "tags": ["Logística", "Porto", "Supply Chain", "Gestão"],
+    "lessons": [
+      {
+        "id": "lesson-5-1",
+        "courseId": "course-5",
+        "title": "Introdução à Logística Portuária",
+        "description": "Conceitos fundamentais",
+        "type": "video",
+        "content": "https://exemplo.com/logistica1",
+        "duration": 90,
+        "order": 1,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-5-2",
+        "courseId": "course-5",
+        "title": "Processos de Importação",
+        "description": "Documentação e fluxos",
+        "type": "video",
+        "content": "https://exemplo.com/logistica2",
+        "duration": 120,
+        "order": 2,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-5-3",
+        "courseId": "course-5",
+        "title": "Processos de Exportação",
+        "description": "Procedimentos e normas",
+        "type": "video",
+        "content": "https://exemplo.com/logistica3",
+        "duration": 120,
+        "order": 3,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-5-4",
+        "courseId": "course-5",
+        "title": "Supply Chain Management",
+        "description": "Gestão da cadeia de suprimentos",
+        "type": "text",
+        "content": "<h1>Supply Chain</h1><p>...</p>",
+        "duration": 90,
+        "order": 4,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-5-5",
+        "courseId": "course-5",
+        "title": "Tecnologias na Logística 4.0",
+        "description": "Inovações e tendências",
+        "type": "video",
+        "content": "https://exemplo.com/logistica4",
+        "duration": 90,
+        "order": 5,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-5-6",
+        "courseId": "course-5",
+        "title": "Avaliação Final",
+        "description": "Projeto prático",
+        "type": "quiz",
+        "content": "{\"questions\": []}",
+        "duration": 120,
+        "order": 6,
+        "isRequired": true
+      }
+    ],
+    "certificateTemplate": "logistica-certificate",
+    "active": true,
+    "publishedAt": "2025-01-12T10:00:00Z"
+  },
+  {
+    "id": "course-6",
+    "title": "LIBRAS Básico para o Ambiente de Trabalho",
+    "description": "Aprenda os fundamentos da Língua Brasileira de Sinais para melhor comunicação com colegas surdos no ambiente portuário.",
+    "category": "Desenvolvimento Pessoal",
+    "thumbnail": "/courses/libras.jpg",
+    "duration": 20,
+    "mode": "hibrido",
+    "level": "basico",
+    "instructor": "Prof. Marcos Lima (Surdo)",
+    "location": "Centro de Treinamento - Porto do Pecém",
+    "schedule": "Terças e Quintas, 19h às 21h",
+    "maxStudents": 25,
+    "tags": ["LIBRAS", "Inclusão", "Comunicação", "Acessibilidade"],
+    "lessons": [
+      {
+        "id": "lesson-6-1",
+        "courseId": "course-6",
+        "title": "Alfabeto Manual e Números",
+        "description": "Primeiros passos em LIBRAS",
+        "type": "video",
+        "content": "https://exemplo.com/libras1",
+        "duration": 60,
+        "order": 1,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-6-2",
+        "courseId": "course-6",
+        "title": "Cumprimentos e Apresentações",
+        "description": "Sinais básicos do dia a dia",
+        "type": "video",
+        "content": "https://exemplo.com/libras2",
+        "duration": 60,
+        "order": 2,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-6-3",
+        "courseId": "course-6",
+        "title": "Vocabulário do Porto",
+        "description": "Sinais específicos do ambiente portuário",
+        "type": "video",
+        "content": "https://exemplo.com/libras3",
+        "duration": 90,
+        "order": 3,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-6-4",
+        "courseId": "course-6",
+        "title": "Prática Presencial 1",
+        "description": "Conversação básica",
+        "type": "document",
+        "content": "/documents/libras-pratica1.pdf",
+        "duration": 120,
+        "order": 4,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-6-5",
+        "courseId": "course-6",
+        "title": "Prática Presencial 2",
+        "description": "Simulações de situações reais",
+        "type": "document",
+        "content": "/documents/libras-pratica2.pdf",
+        "duration": 120,
+        "order": 5,
+        "isRequired": true
+      },
+      {
+        "id": "lesson-6-6",
+        "courseId": "course-6",
+        "title": "Avaliação Prática",
+        "description": "Demonstração de aprendizado",
+        "type": "quiz",
+        "content": "{\"questions\": []}",
+        "duration": 60,
+        "order": 6,
+        "isRequired": true
+      }
+    ],
+    "certificateTemplate": "libras-certificate",
+    "active": true,
+    "publishedAt": "2025-01-18T10:00:00Z"
+  }
+]

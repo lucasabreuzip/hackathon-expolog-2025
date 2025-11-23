@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cert-001",
+    "userId": "c001",
+    "courseId": "course-1",
+    "courseTitle": "NR-35: Trabalho em Altura - Básico",
+    "issuedAt": "2025-01-20T17:00:00Z",
+    "certificateNumber": "PECEM-NR35-2025-001",
+    "downloadUrl": "/certificates/pecem-nr35-2025-001.pdf",
+    "validUntil": "2027-01-20",
+    "hours": 8,
+    "grade": 95
+  },
+  {
+    "id": "cert-002",
+    "userId": "c002",
+    "courseId": "course-3",
+    "courseTitle": "Acessibilidade e Inclusão no Ambiente Portuário",
+    "issuedAt": "2025-01-21T16:00:00Z",
+    "certificateNumber": "PECEM-INC-2025-001",
+    "downloadUrl": "/certificates/pecem-inc-2025-001.pdf",
+    "hours": 4,
+    "grade": 100
+  },
+  {
+    "id": "cert-003",
+    "userId": "c003",
+    "courseId": "course-2",
+    "courseTitle": "Operação de Empilhadeira",
+    "issuedAt": "2025-01-17T23:00:00Z",
+    "certificateNumber": "PECEM-EMP-2025-001",
+    "downloadUrl": "/certificates/pecem-emp-2025-001.pdf",
+    "validUntil": "2027-01-17",
+    "hours": 16,
+    "grade": 88
+  }
+]
